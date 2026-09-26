@@ -1,0 +1,70 @@
+/* Rustgevende basisstijlen */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fcfbfa; /* Warm wit/beige achtergrond */
+    color: #3d403a; /* Zacht donkergrijs/groen voor betere leesbaarheid */
+    line-height: 1.8;
+}
+
+header {
+    background-color: #7d8c77; /* Zacht saliegroen */
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+main {
+    max-width: 750px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    margin-bottom: 8rem; /* Ruimte voor de footer */
+}
+
+/* Grote, cursieve letters voor jouw missie */
+.intro-missie {
+    font-size: 1.8rem;
+    font-style: italic;
+    color: #4a5943; /* Iets donkerder groen */
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 2.5rem;
+}
+
+/* Iets kleinere, rustige letters voor de rest van de tekst */
+.intro-tekst {
+    font-size: 1.15rem;
+    color: #4a4a4a;
+}
+
+.intro-tekst p {
+    margin-bottom: 1.5rem;
+}
+
+/* Extra nadruk op de uitsmijter */
+.highlight {
+    font-weight: bold;
+    color: #7d8c77;
+    font-size: 1.25rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: #3d403a;
+    color: #e6e8e5;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
